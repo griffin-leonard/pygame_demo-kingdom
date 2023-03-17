@@ -1,0 +1,191 @@
+BUGS
+    GENERAL
+        drop position for wood (from trees)
+        drop position for loot (from animals)
+        normal distribution for multiple item drops (for loot from animals)
+        scroll quicker when more zoomed out
+        bunnies missing!!
+    GENERATION
+        sizes of oceans and continents don't add up to WORLD_SIZE!!
+    STRUCTURES
+        inventories are shared
+        building structures shouldn't require all the materials in the inventory at once
+    INVENTORY
+        inventory columns/rows (when many item types in inv) 
+            IDEA: page system when too many item types
+    DRAWING TO SCREEN
+        debug hud size consistency when zooming (for chunk borders and numbers)
+        person walking animation continues when player presses esc while walking
+        wrap item border around item instead of square
+        pixel of light on far right of sreen when fully zoomed in 
+        crafting and struct HUD locations
+            IDEA: crafting tab where inventory is, struct/build HUDs in constant location
+        animation to fires
+
+PRIORITY FEATURES (vaguely in order)
+    berry bushes
+    eating food
+    sticks from trees/logs?
+    wolves
+    PERSON AI 
+        knowledge system (for handing what automated tasks are unlocked)
+            must do something as a person to unlock
+        people automatically forage/hunt 
+        person reproduction
+        sleep at night?
+            regens health?
+    more items 
+        bow and arrows
+        torches
+        spear?
+        pickaxe
+    ENVIR/ECOSYSTEM
+        background objects
+        biome generation for tree/object distribution
+        background reproduction for trees and animals
+    other types of minerals from boulders (coal, flint)
+    sky changing colors with time
+    transition in/out of buildings?
+        craft desks, beds, chairs, etc.
+
+FEATURES TO ADD
+    GENERAL
+        create/destroy objects based on REDNER_DISTANCE (for data leakage!)
+        death for animals
+        respawning
+        expansion of camp/cities
+        knowledge system for crafting recipes per individual?
+        saving and loading
+        lighting/brightness system
+    PEOPLE
+        attacking
+        dropping and using inventory items
+        sleeping?
+        tiredness?
+        sleeping/tiredness to heal health?
+        temperments? (personality stats controlling social behavior)
+        other cavemen camps
+        other delevoped societies
+        clothes by profession/social status
+        defend themselves from attacks (from player or animals)
+        flee from attacks
+    STORY 
+        ruins of ancient civs
+            desert pyrimids
+            jungle temple
+    ITEMS 
+        held item durability?
+        make trees drop more than one wood
+        animal item drops
+        specific items
+            torches
+            spear
+            bow
+            pickaxe
+    PLANTS AND ANIMALS 
+        plants 
+            berry bushes
+            berries can be picked and eaten
+            mushrooms
+            mushrooms decompose wood
+        animals 
+            animals sleep at night
+            deer 
+            deer defend themselves?
+            wolves 
+            wolves attack 
+            wolves hunt in packs
+            bears
+            bears hibernate in winter
+            squirels?
+            birds (just background?)
+    REPRODUCTION
+        animal reproduction
+        person reproduction
+        tree reproduction
+            IDEA: use background layers as "off screen" members of the popluation
+            (e.g., only 1/4th 1/5th of population can acually be interacted with, others
+            appear in background)
+    ART AND ANIMATION
+        using item animations
+        animal/person death animations
+        tree falling animation
+        racial variation by continent
+    WORLD GEN
+        world gen (biome selection for chunks)
+        background (trees, rocks, mountains, hills)
+        tiles for ground
+        biomes
+            desert
+                cactus
+            jungle
+            plains
+            mountain
+            ocean
+            bamboo forest
+                bamboo
+            village/town 
+            city
+        rivers
+        cliffs?
+    TIME
+        weather
+        sky color for day/night cycle
+        seasons
+        vary day length with latitude
+            IDEA: use latitude for x position, day length affected by latitude
+        moon phases
+        tides?
+    MENUS
+        start menu 
+        pause menu 
+            controls 
+            sound settings 
+    SOUND 
+        ambient music
+        birds (owls, chirping)
+        idle sounds
+        walking/running sounds
+        death sounds
+        hurt sounds
+        eating sounds
+        rain sounds
+        specific animal sounds (growling, nieghing, etc.)
+    
+REACH FEATURES
+    weather events
+        lighting
+        forest fires
+        extreme wind (tornados?)
+    tech upgrade system (metal, electronics)
+    space travel 
+    other planets 
+    planet positions determine spawn traits for people (and animals?)
+    crystal technology
+    planes 
+    vertical exploration
+        submarines
+        climbing mountains
+        caves
+        climbing trees?
+    charms with magic abilites (subtle)
+    civilisation view (upgrade of scrolling)
+        manage government structures and priorities instead of small groups of people
+        cities instead of villages/towns
+        currency
+    person traits (affected by genetics, society, and planets?)
+        creativity 
+            affects ability to craft new items? (new items depend on society)
+            prob to be artist (musician, ect.) in later stages of civilisation?
+        strength 
+            depends on food quality?
+            affects stamina, attack speed, build speed
+            prob to be certain professions (e.g. lumberjack, construction worker)
+        polarity (self vs. other oriented)
+            prob to steal/kill?
+            prob to give food/items to others
+            depends on demands/policeis of society?
+    coups?
+        splits in society (and people the player can control)
+        depends on social heirarchies (and polarity?)
+    religion?

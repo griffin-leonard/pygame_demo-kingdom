@@ -1,0 +1,85 @@
+11/6/22
+    started project
+Unknown
+    + trees
+    + Object and Entity classes
+    + Person and Item classes
+    + Person walking
+    + Person walking animation
+    + hammer (held item)
+    + animation for hammer
+    + picking up held items
+    + axe (held item)
+    + held items
+    + animation for axe
+    + cutting trees
+    + logs (item drop from trees)
+    + inventory backend scaffolding
+    + picking up inventory items
+    + biomes (spruce forest and camp)
+    + campfire
+    + Animal class
+    + bunnies
+    + animation for campfire
+    + animation for bunnies
+    + inventory HUD
+    + Controller class for scrolling screen
+    + selecting a Person
+    + pursue fn for Person (walk to a location)
+    + tasks for Person (picking up item)
+    + zoom screen with Controller
+    + see inventory when selecting Person
+    + running
+    + DEBUG mode
+12/1/22
+    * screen scaling when zooming
+12/2/22
+    + held items can be dropped (Q or pick up new item)
+    + stamina
+    + hunger
+    + dying (for Person)
+    + health
+12/3/22
+    * inv item postions and borders
+    + dying fn (for Animal)
+    + HUD for crafting
+12/8/22
+    + toggle DEBUG mode
+12/9/22
+    + inventory item border for selected items (mouse over item)
+12/12/22
+    * bugs with inventory mouse selection
+    * draw_hud now in Controller (marginally more efficient with many people)
+    * can start with items when in DEBUG mode
+    + fn scafolding for throwing/dropping/using inventory items and crafting items
+12/13/22
+    + generate.create_item fn (for when stuff is dropped or crafted)
+    + inventory items can be dropped
+    + items can be crafted 
+12/14/22
+    * sun's y postion is based on time of day
+    + alpha over screen for darkness at night 
+    + damage for animals (generalized damage and die fns for all objs)
+12/15/22
+    + HUD indicator for health and hunger
+    + lighting objects at night (e.g. campfire)
+    + tiles on ground
+12/17/22
+    + new world generation
+        + 4 contitents chosen from 6 options
+        + 4 oceans
+        + artic and antartica 
+        + sizes of continents and oceans vary
+    + Structures
+        + Structures can have inventories
+        + moving items between Person and Structure inventories
+    + add cave entrance (Structure)
+12/18/22
+    + max click speed for transfering items between inventories
+12/19/22
+    + log cabin (Structure)
+    + Structures can be built
+    + scaffolding for Structures still being built
+12/22/22
+    * split backend object lists into interactable and not (in addition to fg and bg)
+    
